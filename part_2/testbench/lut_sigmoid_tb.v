@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module lut_sigmoid_tb();
     localparam T = 10;
     
