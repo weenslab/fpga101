@@ -21,7 +21,7 @@ module shifter
             3'b101: y_tmp = {2'b00, a[7:2]};
             3'b110: y_tmp = {3'b000, a[7:3]};
             3'b111: y_tmp = {4'b0000, a[7:4]};
-            default: y_tmp <= 8'h00;
+            default: y_tmp = 8'h00;
         endcase
     end
     
